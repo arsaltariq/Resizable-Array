@@ -1,0 +1,50 @@
+ob1= resizable_array(3)
+print("\n---------Initial Array---------")
+print(ob1.PrintArray())
+
+print("\n---------Insert at End---------")
+ob1.InsertAtEnd(5)
+ob1.InsertAtEnd(6)
+ob1.InsertAtEnd(7)
+ob1.InsertAtEnd(8)
+print(ob1.PrintArray())
+
+print('\n---------Insert at First---------')
+ob1.InsertAtFirst(4)
+ob1.InsertAtFirst(3)
+ob1.InsertAtFirst(2)
+ob1.InsertAtFirst(1)
+ob1.InsertAtFirst(0)
+print(ob1.PrintArray())
+
+print('\n---------DeleteAtFirst---------')
+ob1.DeleteAtFirst()
+print(ob1.PrintArray())
+
+print("\n---------DeleteAtEnd---------")
+ob1.DeleteAtEnd()
+print(ob1.PrintArray())
+
+print("\n---------InsertAtMiddle--------- ")
+ob1.InsertAtMiddle(5, 15)
+ob1.InsertAtMiddle(6, 16)
+ob1.InsertAtMiddle(7, 17)
+print(ob1.PrintArray())
+
+print("\n THIS VALUE IS NOT IN ARRAY")
+ob1.InsertAtMiddle(10, 88)
+
+
+print("\n---------DeleteByValue--------- ")
+ob1.DeleteByValue(15)
+#print(ob1.PrintArray())
+ob1.DeleteByValue(16)
+#print(ob1.PrintArray())
+ob1.DeleteByValue(17)
+print(ob1.PrintArray())
+
+print("\n---------MaximumValue--------- ")
+ob1.maximum_value()
+
+print("\n---------MinimumValue--------- ")
+ob1.minimum_value()

@@ -8,7 +8,7 @@ InsertAtEnd() funtion should be called to achieve array of desired value inserte
 InsertAtFirst() funtion should be called to achieve array of desired value inserted at first.
 
 # Print Array 
-Print() function prints out the array.
+PrintArray() function prints out the array.
 
 # Delete at end
 DeleteAtEnd() funtion should be called to delete the last element of the array.
